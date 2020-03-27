@@ -1,0 +1,8 @@
+I included the raw files. The folders that are empty correspond to the filters that I did not use. The code creates new images that get stored in their respective folders.
+Code Order
+MasterDark- Takes an average from all the dark frames.
+MasterFlats- Takes an average from all the flat frames for each filter.
+Correction- Calibrates all images using the MasterDarks and MasterFlats.
+Alignment- Uses stars to align all the images, correcting for any drift during the capture process.
+Stacker- Creates a master image for each filter by stacking them. Stacking is done by taking an average to increase signal to noise ratio.
+
